@@ -80,8 +80,7 @@ function returnCounter(number = 0) {
    returnArgumentsArray(1, 2, 3) вернет [1, 2, 3]
  */
 function returnArgumentsArray(...args) {
-  const array = args;
-  return array;
+  return args;
 }
 
 /*
