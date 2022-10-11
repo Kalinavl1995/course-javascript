@@ -12,7 +12,6 @@
  */
 function createDivWithText(text) {
   const element = document.createElement('div');
-  document.body.appendChild(element);
   element.textContent = text;
   return element;
 }
